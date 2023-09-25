@@ -7,9 +7,19 @@
 		<style>
 			body { margin: 0; }
 		</style>
-		<img id="fail" src="./textures/mission_failed.jpg" alt="Failed" hidden>
+		<script type="importmap">
+	          {
+	            "imports": {
+	              "three": "https://unpkg.com/three@0.150.1/build/three.module.js",
+	              "three/addons/": "https://unpkg.com/three@0.150.1/examples/jsm/",
+		      "three/examples/": "https://unpkg.com/three@0.150.1/examples/"
+	            }
+	          }
+	        </script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/tween.js/20.0.0/tween.umd.js"></script>
+		<img id="fail" src="./textures/mission_failed.jpg" alt="Failed" hidden width="100%" height="100%">
 	</head>
 	<body>
-		<script type="module" src="/main.js"></script>
+		<script type="module" src="./main.js"></script>
 	</body>
 </html>

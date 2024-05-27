@@ -1,6 +1,6 @@
-import * as THREE from 'three';
-import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
-import {OrbitControls} from 'three/examples/jsm/controls/OrbitControls.js';
+import * as THREE from './node_modules/three';
+import { GLTFLoader } from './node_modules/three/addons/loaders/GLTFLoader.js';
+import {OrbitControls} from './node_modules/three/examples/jsm/controls/OrbitControls.js';
 
 var space;
 var space_station;
